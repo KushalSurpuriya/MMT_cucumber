@@ -1,0 +1,49 @@
+10:51:18.643 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+10:51:18.665 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+10:51:18.940 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+10:51:18.958 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+10:51:18.972 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+10:51:18.995 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+10:51:18.996 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+10:51:18.998 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+10:51:19.002 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+10:51:19.009 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+10:51:19.013 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+10:51:19.015 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+10:51:19.016 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+10:51:19.019 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+10:51:19.020 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+10:51:19.020 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+10:51:19.024 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+10:51:19.026 [main] INFO  BaseClass - get the list of number of adults and print it....
+09:49:04.632 [main] DEBUG BaseClass - The user launched the webpage.....
+09:49:05.606 [main] DEBUG BaseClass - User clicks on cab....
+09:49:11.241 [main] DEBUG BaseClass - User enters from and to locations....
+09:49:37.448 [main] INFO  BaseClass - User enters date and time and click on search....
+09:49:38.288 [main] INFO  BaseClass - User selects car type as SUV....
+09:49:38.709 [main] INFO  BaseClass - User prints the lowest car price....
+09:50:02.622 [main] INFO  BaseClass - User clicks on more tab and selects Giftcard option....
+09:50:05.449 [main] INFO  BaseClass - User selects wedding gift card and selects Email option....
+09:50:06.748 [main] INFO  BaseClass - Scrolll to that field and enter invalid email....
+09:50:07.724 [main] INFO  BaseClass - click on buy now and capture the error message....
+09:50:08.028 [main] INFO  BaseClass - User prints the error message....
+09:50:09.013 [main] INFO  BaseClass - User clicks on Hotels tab....
+09:50:10.701 [main] INFO  BaseClass - User clicks on guest button and then on adults....
+09:50:17.999 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+09:50:18.001 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+09:50:18.279 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+09:50:18.300 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+09:50:18.320 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+09:50:18.343 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+09:50:18.345 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+09:50:18.346 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+09:50:18.351 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+09:50:18.360 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+09:50:18.364 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+09:50:18.367 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+09:50:18.368 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+09:50:18.372 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+09:50:18.373 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+09:50:18.374 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+09:50:18.378 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+09:50:18.380 [main] INFO  BaseClass - get the list of number of adults and print it....
