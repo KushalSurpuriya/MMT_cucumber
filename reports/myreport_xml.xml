@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="185.058" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="MakeMyTrip" name="OutStation Cab booking" time="37.053">
+<testsuite name="Cucumber" time="129.17" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="MakeMyTrip" name="OutStation Cab booking" time="69.215">
 <system-out><![CDATA[
 Given The User is on the MakeMyTrip homepage................................passed
 When User clicks on cab.....................................................passed
@@ -10,7 +10,7 @@ And User selects car type as SUV............................................pass
 Then User prints the lowest car price.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="MakeMyTrip" name="Gift card select" time="29.269">
+<testcase classname="MakeMyTrip" name="Gift card select" time="43.697">
 <system-out><![CDATA[
 When User clicks on more tab and selects Giftcard option....................passed
 And User selects wedding gift card and selects Email option.................passed
@@ -19,7 +19,7 @@ And click on buy now and capture the error message..........................pass
 Then User prints the error message..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="MakeMyTrip" name="Hotel scenario" time="10.711">
+<testcase classname="MakeMyTrip" name="Hotel scenario" time="4.808">
 <system-out><![CDATA[
 When User clicks on Hotels tab..............................................passed
 And User clicks on guest button and then on adults..........................passed

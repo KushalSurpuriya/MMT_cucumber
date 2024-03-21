@@ -41,13 +41,26 @@ public class BaseClass {
 	public void the_user_is_on_the_make_my_trip_homepage() {
 		log = LogManager.getLogger("BaseClass");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		log.debug("The user launched the webpage.....");
+		//popup
+				try {
+					driver.switchTo().frame("webklipper-publisher-widget-container-notification-frame");	
+					if(oc.PopUp().isDisplayed()) {
+						oc.PopUp().click();
+						System.out.println("Pop Up Displayed and closed successfully.");
+					}else {
+						System.out.println("Pop up not found");
+					}
+					driver.switchTo().defaultContent();
+					}catch (Exception e) {
+						System.out.println("Pop up not found");
+					}
+		log.info("The user launched the webpage.....");
 	}
 
 	@When("User clicks on cab")
 	public void user_clicks_on_cab() {
 	    oc.click(oc.cab_Button);
-	    log.debug("User clicks on cab....");
+	    log.info("User clicks on cab....");
 	}
 
 	@When("User enters from and to locations")
@@ -56,14 +69,19 @@ public class BaseClass {
 		oc.click(oc.from_Button);
 	    oc.getTextofList(oc.fromTabs, from);
 	    //To Location
-	    try {
-	    Thread.sleep(500);
-	    //js.executeScript("arguments[0].setAttribute('value','Manali')",oc.toSearchBar);
-		action.sendKeys(oc.toSearchBar, "Manali").build().perform();
+	    try 
+	    {
+	    	Actions action = new Actions(driver);
+			action.sendKeys(oc.toSearchBar, "Manali").build().perform();
+	    }catch (Exception e) {
+	    	System.out.println("Trying another input"); 
+	    	oc.toSearchBar.clear();
+	    	JavascriptExecutor js = (JavascriptExecutor)driver;
+			js.executeScript("arguments[0].setAttribute('value','Manali')",oc.toSearchBar);
+	    	}
 	    Thread.sleep(2000);
 	    oc.click(oc.toTabs);
-	    }catch(Exception e) {}
-	    log.debug("User enters from and to locations....");
+	    log.info("User enters from and to locations....");
 	}
 
 	@When("User enters date and time and click on search")
@@ -131,7 +149,6 @@ public class BaseClass {
 	public void user_clicks_on_hotels_tab() {
 		h = new Hotel(driver);
 		js.executeScript("window.scrollBy(0,-550)");
-		//driver.navigate().refresh();
 		//h.click(h.cli_hotel);
 		js.executeScript("arguments[0].click();",h.cli_hotel);
 		log.info("User clicks on Hotels tab....");

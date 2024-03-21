@@ -40,11 +40,6 @@ public class Hooks {
 		File trg = new File(filename);
 		FileUtils.copyFile(src, trg);
 	}
-//	public void addScreenshot(Scenario scenario) {       
-//	       	TakesScreenshot ts=(TakesScreenshot) driver;
-//	       	byte[] screenshot=ts.getScreenshotAs(OutputType.BYTES);
-//	       	scenario.attach(screenshot, "image/png",scenario.getName());
-//	   }
 
    @AfterAll
    public static  void tearDown() {
